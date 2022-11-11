@@ -28,6 +28,7 @@ BuildRequires:  python3-cairo python3-gobject cairo-devel
 BuildRequires:  umockdev >= 0.13.2
 # For the sigfm algorithm
 BuildRequires:  pkgconfig(opencv4)
+BuildRequires:  cmake
 BuildRequires:  doctest-devel
 # For goodixtls devices
 BuildRequires:  pkgconfig(openssl)
