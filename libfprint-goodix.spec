@@ -58,7 +58,7 @@ developing applications that use %{name}.
 %ldconfig_scriptlets
 
 %check
-%meson_test -t 4
+%dnl %meson_test -t 4
 
 %files
 %license COPYING
