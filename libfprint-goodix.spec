@@ -1,6 +1,6 @@
 Name:           libfprint
 
-Version:        1.94.6.goodixtls.638d8d8
+Version:        1.94.6.goodixtls.6e4fdc0
 Release:        %autorelease
 Summary:        Toolkit for fingerprint scanner
 
