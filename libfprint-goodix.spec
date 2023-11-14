@@ -1,12 +1,12 @@
 Name:           libfprint
 
-Version:        1.92.1
+Version:        1.94.6.goodixtls.638d8d8
 Release:        %autorelease
 Summary:        Toolkit for fingerprint scanner
 
 License:        LGPLv2+
-URL:            https://github.com/0x00002a/libfprint
-Source0:        https://github.com/0x00002a/libfprint/archive/refs/heads/0x2a/dev/goodixtls-sigfm.tar.gz
+URL:            https://github.com/TheWeirdDev/libfprint
+Source0:        https://github.com/TheWeirdDev/libfprint/archive/refs/heads/55b4-experimental.tar.gz
 ExcludeArch:    s390 s390x
 
 BuildRequires:  meson
@@ -45,7 +45,7 @@ The %{name}-devel package contains libraries and header files for
 developing applications that use %{name}.
 
 %prep
-%autosetup -S git -n libfprint-0x2a-dev-goodixtls-sigfm
+%autosetup -S git -n libfprint-55b4-experimental
 
 %build
 # Include the virtual image driver for integration tests
